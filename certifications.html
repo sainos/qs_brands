@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head runat="server">
+    <title>Quick Ship Brands</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="quick ship brands, reverse logistics" />
+    <meta name="description" content="Quick Ship Brands is committed to providing quality reverse logistics solutions and building trusted brand partnerships."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="content/bootstrap.min.css" />
+    <link rel="stylesheet" href="content/bootstrap-theme.min.css" />
+    <link rel="shortcut icon" href="assets/img/logos/logoHQ.png" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="scripts/jquery-3.1.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <!-- Sticky navbar after scroll -->
+    <script lang="JavaScript" type="text/javascript">
+        (function ($) {
+            $(document).ready(function () {
+            /*
+            //hide navbar until user scrolls
+                $(".header").hide();
+                $(function () {
+                    $(window).scroll(function () {
+                        // set distance user needs to scroll before we start fadeIn
+                        if ($(this).scrollTop() > 0)
+                        {
+                            $('.header').fadeIn()
+                        }
+                        else
+                        {
+                            $('.header').fadeOut();
+                        }
+                    }); //end scroll
+                }); //end function(
+                */
+                /*mobile nav bar*/
+                $("#nav").addClass("js");
+                $("#nav").addClass("js").before('<div id="menu">☰</div>');
+                $("#menu").click(function () {
+                    $("#nav").toggle();
+                });
+                $(window).resize(function () {
+                    if (window.innerWidth > 1200) {
+                        $("#nav").removeAttr("style");
+                    }
+                }); //end resize
+
+            });//end function()
+        }(jQuery)); //end function($)
+
+        // Contact form
+
+    </script>
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+
+    <!-- Imported Font Styling -->
+    <style> @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');</style>
+</head>
+
+
+<body>
+    <!-- Header Begins -->
+    <header class="header">
+        <a href="HomePage.html"><div class="logoContainer"></div></a>
+        <nav class="menuNav">
+            <ul id ="nav" class="nav-center">
+                <li><a href="HomePage.html">What We Do</a></li>
+                <li style="border-bottom: 2px solid black"><a href="certifications.html">Certifications</a></li>
+                <li><a href="tech.html">Tech</a></li>
+                <li><a href="connect.html">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!--Certifications Tab-->
+    <!-- <div class ="banner">
+        <section class="section" id="about-us">
+            <div class="sectionPage">
+              <div class ="bottomMargin"></div>
+                <h1 class="sectionHeading">About Us</h1>
+                <br/>
+                <hr class="bottomSpace" style="background-color: rgba(183,183,183, 1);">
+            </div>
+        </section>
+      </div> -->
+
+
+    <!--Cert images wrapped next to description-->
+    <div class ="banner" style="margin-bottom:40px; padding-left: 0px;">
+        <h1 class="container title-center">Our Certifications</h1>
+        <hr>
+        <div class="sectionContent centered container size-increase">
+          <table>
+            <tr>
+              <td></td>
+              <td>
+                <div class="logo-hover" id="r2container">
+                  <a href="https://sustainableelectronics.org/" target="_blank"><img class="logo-hover-r2" src="assets/img/certs/R2.PNG" id="r2"></a>
+                </div>
+              </td>
+              <td></td>
+            </tr>
+              <td>
+                <div>
+                  <img src="assets/img/certs/NAID.png" class="img-resize logo-hover" id="aaa-cert" alt="quick ship brands"/>
+                </div>
+              </td>
+              <td id="td-center">
+                <div class="text-center cert-p rla-hide hidden-text"><b class="font">Reverse Logistics Association:</b><p class="font">We are a member of the Reverse Logistics Association.</p></div>
+                <div class="text-center cert-p ohsas-hide hidden-text"><b class ="font">Occupational Health and Safety Assessment Series:</b><p class="font">We are committed to protecting the health and well-being of our employees.</p></div>
+                <div class="text-center cert-p aaa-hide hidden-text"><b class ="font">National Association for Information Destruction AAA Certification:</b><p class="font">We protect our clients’ sensitive data by taking the necessary steps required under all regulatory guidelines for information destruction and sanitation.</p></div>
+                <div class="text-center cert-p iso-hide hidden-text"><b class ="font">International Organization for Standardization:</b><p class="font">We follow an internationally recognized standard that helps improve our environmental performance through more efficient resource use and waste reduction.</p></div>
+                <div class="text-center cert-p r2-hide hidden-text"><b class ="font">Responsible Recycling Practices Standard:</b><p class="font">We ensure any hazardous electronic material we obtain are managed safely and responsibly.</p></div>
+              </td>
+              <td>
+                <div>
+                  <img src="assets/img/certs/ISO.png" class="img-resize logo-hover" id="iso-cert" alt="quick ship brands"/>
+                </div>
+              </td>
+            <tr>
+              <td class="bottom-row">
+                <div>
+                  <img src="assets/img/certs/OSHAS.png" class="img-resize logo-hover" id="ohsas-cert" alt="quick ship brands"/>
+                </div>
+              </td>
+              <td></td>
+              <td class="bottom-row">
+                <div style="border: none;">
+                  <img src="assets/img/certs/rla.png" class="img-resize logo-hover" id="rla-cert" alt="quick ship brands"/>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+
+</body>
+
+</html>

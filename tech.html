@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>Quick Ship Brands</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="quick ship brands, reverse logistics" />
+        <meta name="description" content="Quick Ship Brands is committed to providing quality reverse logistics solutions and building trusted brand partnerships."/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="content/bootstrap.min.css" />
+        <link rel="stylesheet" href="content/bootstrap-theme.min.css" />
+        <link rel="shortcut icon" href="assets/img/logos/logoHQ.png" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="scripts/jquery-3.1.1.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <!-- Sticky navbar after scroll -->
+        <script lang="JavaScript" type="text/javascript">
+            (function ($) {
+                $(document).ready(function () {
+                /*
+                //hide navbar until user scrolls
+                    $(".header").hide();
+                    $(function () {
+                        $(window).scroll(function () {
+                            // set distance user needs to scroll before we start fadeIn
+                            if ($(this).scrollTop() > 0)
+                            {
+                                $('.header').fadeIn()
+                            }
+                            else
+                            {
+                                $('.header').fadeOut();
+                            }
+                        }); //end scroll
+                    }); //end function(
+                    */
+                    /*mobile nav bar*/
+                    $("#nav").addClass("js");
+                    $("#nav").addClass("js").before('<div id="menu">☰</div>');
+                    $("#menu").click(function () {
+                        $("#nav").toggle();
+                    });
+                    $(window).resize(function () {
+                        if (window.innerWidth > 1200) {
+                            $("#nav").removeAttr("style");
+                        }
+                    }); //end resize
+
+                });//end function()
+            }(jQuery)); //end function($)
+
+            // Contact form
+
+        </script>
+
+        <!-- Custom CSS File -->
+        <link rel="stylesheet" href="css/tech-style.css" type="text/css" />
+        <link rel="stylesheet" href="css/custom.css" type="text/css" />
+
+        <!-- Imported Font Styling -->
+        <style> @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');</style>
+    </head>
+
+    <body>
+        <!-- Header Begins -->
+        <header class="header">
+            <a href="HomePage.html"><div class="logoContainer"></div></a>
+            <nav class="menuNav">
+                <ul id ="nav" class="nav-center">
+                    <li><a href="HomePage.html">What We Do</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li style="border-bottom: 2px solid black"><a href="tech.html"><a href="tech.html">Tech</a></li>
+                    <li><a href="connect.html">Connect</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Header End -->
+
+
+        <!--Tech Tab-->
+        <div class="">
+            <h1 class="container title-center">Our Technology</h1>
+            <hr>
+            <section class="section" id="tech">
+            </section>
+            <div class="centered">
+                <span class="infoSlides hover"><img src="assets/img/infoSlides/Cloud.PNG" alt="quick ship brands"/></span>
+                <span class="infoSlides hover2"><img src="assets/img/infoSlides/EDI.PNG" alt="quick ship brands"/></span>
+                <span class="infoSlides hover"><img src="assets/img/infoSlides/API.PNG" alt="quick ship brands"/></span>
+            </div>
+        </div>
+
+        <div id="tech-table">
+          <div class="container centered">
+            <div class="row">
+              <div class="col-md-5 box col-sm-4 col-xs-4" id="top-left-box-tech">
+                <p class="lg-font" id="top-left-text-tech">Permission Based</p>
+                <p id="top-left-exclamation-tech">Admin Privileges</p>
+                <img src="assets/img/icons/admin.png" id="admin-icon">
+              </div>
+              <div class="col-md-3 box col-sm-4 col-xs-4" id="top-center-box-tech">
+                <p class="lg-font" id="top-center-text-tech">Partner</p>
+                <p id="top-center-exclamation-tech">Portal Access</p>
+                <img src="assets/img/icons/portal.png" id="portal-icon">
+              </div>
+              <div class="col-md-3 box col-sm-3 col-xs-3" id="top-right-box-tech">
+                <p class="lg-font" id="top-right-text-tech">We Don't Store</p>
+                <p id="top-right-emphasis-tech">PW & CC Info</p>
+                <img src="assets/img/icons/info.png"id="info-icon">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5 box col-sm-4 col-xs-4" id="center-left-box-tech">
+                <p class="md-font" id="center-left-text-tech">Full Reporting Including</p>
+                <p id="center-left-exclamation-tech">Listing & Inventory Management</p>
+                <img src="assets/img/icons/listing.png" id="listing-icon">
+              </div>
+              <div class="col-md-3 box col-sm-4 col-xs-4" id="center-box-tech">
+                <p class="md-font" id="center-text-tech">Manage</p>
+                <p id="center-text-exclamation-tech">Multiple Seller Accounts</p>
+                <img src="assets/img/icons/city.png" id="city-icon">
+              </div>
+              <div class="col-md-3 box col-sm-3 col-xs-3" id="center-right-box-tech">
+                <p class="md-font" id="center-right-text-tech">Warehouse Inventory Bin</p>
+                <p id="center-right-exclamation-tech">Location Management</p>
+                <img src="assets/img/icons/warehouse.png" id="warehouse-icon">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 box col-sm-4 col-xs-4" id="bottom-left-box-tech">
+                <p class="lg-font" id="bottom-left-text-tech">Our Systems Are</p>
+                <p id="bottom-left-exclamation-tech">Fully Encrypted</p>
+                <img src="assets/img/icons/encrypted.png" id="encrypted-icon">
+              </div>
+              <div class="col-md-3 box col-sm-3 col-xs-3" id="bottom-center-box-tech">
+                <p class="lg-font" id="bottom-center-text-tech">Google 2FA</p>
+                <p id="bottom-center-exclamation-tech">Two-Factor Authentication</p>
+                <img src="assets/img/icons/GoogleAuthenticator.png" id="googleauth-icon">
+              </div>
+              <div class="col-md-4 box col-sm-4 col-xs-4" id="bottom-right-box-tech">
+                <p id="bottom-right-exclamation-tech">Process Driven</p>
+                <p class="md-font">Analytics, Sales Management Roles & Task Management</p>
+                <img src="assets/img/icons/analytics.svg" id="analytics-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TABLE FOR VIEWPORTS OF 481-640 -->
+
+        <div class="container">
+          <table id="sm-home-table-tech" class="centered caps-lock">
+            <tr>
+
+              <td class="sm-mobile-table">
+                <p class="lg-font" id="top-left-text-tech">Permission Based</p>
+                <p id="top-left-exclamation-tech">Admin Privileges</p>
+                <img src="assets/img/icons/admin.png" id="admin-icon">
+              </td>
+
+              <td class="sm-mobile-table">
+                <p class="lg-font" id="top-center-text-tech">Partner</p>
+                <p id="top-center-exclamation-tech">Portal Access</p>
+                <img src="assets/img/icons/portal.png" id="portal-icon">
+              </td>
+
+              <td class="sm-mobile-table">
+                <p class="lg-font" id="top-right-text-tech">We Don't Store</p>
+                <p id="top-right-emphasis-tech">PW & CC Info</p>
+                <img src="assets/img/icons/info.png"id="info-icon">
+              </td>
+            </tr>
+
+            <tr>
+
+              <td class="sm-mobile-table">
+                <p class="lg-font" id="center-left-text-tech">Full Reporting Including</p>
+                <p id="center-left-exclamation-tech">Listing & Inventory Management</p>
+                <img src="assets/img/icons/listing.png" id="listing-icon">
+              </td>
+
+              <td class="sm-mobile-table">
+                <p class="lg-font" id="center-text-tech">Manage</p>
+                <p id="center-text-exclamation-tech">Multiple Seller Accounts</p>
+                <img src="assets/img/icons/city.png" id="city-icon">
+              </td>
+
+              <td class="sm-mobile-table">
+                <p class="lg-font" id="center-right-text-tech">Warehouse Inventory Bin</p>
+                <p id="center-right-exclamation-tech">Location Management</p>
+                <img src="assets/img/icons/warehouse.png" id="warehouse-icon">
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td class="sm-mobile-table">
+                <p class="lg-font" id="bottom-left-text-tech">Our Systems Are</p>
+                <p id="bottom-left-exclamation-tech">Fully Encrypted</p>
+                <img src="assets/img/icons/encrypted.png" id="encrypted-icon">
+              </td>
+
+              <td class="sm-mobile-table">
+                <p class="lg-font" id="bottom-center-text-tech">Google 2FA</p>
+                <p id="bottom-center-exclamation-tech">Two-Factor Authentication</p>
+                <img src="assets/img/icons/GoogleAuthenticator.png" id="googleauth-icon">
+              </td>
+
+              <td class="sm-mobile-table">
+                <p id="bottom-right-exclamation-tech">Process Driven</p>
+                <p class="md-font">Analytics, Sales Management Roles & Task Management</p>
+                <img src="assets/img/icons/analytics.svg" id="analytics-icon">
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- TABLE FOR VIEWPORTS OF LESS THAN 480 -->
+
+        <div class="container">
+          <table id="xs-home-table-tech" class="centered caps-lock">
+            <tr>
+
+              <td class="xs-mobile-table">
+                <p class="lg-font" id="top-left-text-tech">Permission Based</p>
+                <p id="top-left-exclamation-tech">Admin Privileges</p>
+                <img src="assets/img/icons/admin.png" id="admin-icon">
+              </td>
+
+              <td class="xs-mobile-table">
+                <p class="lg-font" id="top-center-text-tech">Partner</p>
+                <p id="top-center-exclamation-tech">Portal Access</p>
+                <img src="assets/img/icons/portal.png" id="portal-icon">
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td class="xs-mobile-table">
+                <p class="lg-font" id="top-right-text-tech">We Don't Store</p>
+                <p id="top-right-emphasis-tech">PW & CC Info</p>
+                <img src="assets/img/icons/info.png"id="info-icon">
+              </td>
+
+              <td class="xs-mobile-table">
+                <p class="md-font" id="center-left-text-tech">Full Reporting Including</p>
+                <p id="center-left-exclamation-tech">Listing & Inventory Management</p>
+                <img src="assets/img/icons/listing.png" id="listing-icon">
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td class="xs-mobile-table">
+                <p class="md-font" id="center-text-tech">Manage</p>
+                <p id="center-text-exclamation-tech">Multiple Seller Accounts</p>
+                <img src="assets/img/icons/city.png" id="city-icon">
+              </td>
+
+              <td class="xs-mobile-table">
+                <p class="md-font" id="center-right-text-tech">Warehouse Inventory Bin</p>
+                <p id="center-right-exclamation-tech">Location Management</p>
+                <img src="assets/img/icons/warehouse.png" id="warehouse-icon">
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td class="xs-mobile-table">
+                <p class="lg-font" id="bottom-left-text-tech">Our Systems Are</p>
+                <p id="bottom-left-exclamation-tech">Fully Encrypted</p>
+                <img src="assets/img/icons/encrypted.png" id="encrypted-icon">
+              </td>
+
+              <td class="xs-mobile-table">
+                <p class="lg-font" id="bottom-center-text-tech">Google 2FA</p>
+                <p id="bottom-center-exclamation-tech">Two-Factor Authentication</p>
+                <img src="assets/img/icons/GoogleAuthenticator.png" id="googleauth-icon">
+              </td>
+
+            </tr>
+            <tr>
+              <td>
+                <div id="xs-bottom-row-tech">
+                  <p id="bottom-right-exclamation-tech">Process Driven</p>
+                  <p class="md-font">Analytics, Sales Management Roles & Task Management</p>
+                  <img src="assets/img/icons/analytics.svg" id="analytics-icon">
+                </div>
+              </td>
+
+            </tr>
+          </table>
+        </div>
+
+
+
+      </body>
+  </html>

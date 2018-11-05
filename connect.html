@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>Quick Ship Brands</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="quick ship brands, reverse logistics" />
+        <meta name="description" content="Quick Ship Brands is committed to providing quality reverse logistics solutions and building trusted brand partnerships."/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="content/bootstrap.min.css" />
+        <link rel="stylesheet" href="content/bootstrap-theme.min.css" />
+        <link rel="shortcut icon" href="assets/img/logos/logoHQ.png" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="scripts/jquery-3.1.1.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <!-- Sticky navbar after scroll -->
+        <script lang="JavaScript" type="text/javascript">
+            (function ($) {
+                $(document).ready(function () {
+                /*
+                //hide navbar until user scrolls
+                    $(".header").hide();
+                    $(function () {
+                        $(window).scroll(function () {
+                            // set distance user needs to scroll before we start fadeIn
+                            if ($(this).scrollTop() > 0)
+                            {
+                                $('.header').fadeIn()
+                            }
+                            else
+                            {
+                                $('.header').fadeOut();
+                            }
+                        }); //end scroll
+                    }); //end function(
+                    */
+                    /*mobile nav bar*/
+                    $("#nav").addClass("js");
+                    $("#nav").addClass("js").before('<div id="menu">☰</div>');
+                    $("#menu").click(function () {
+                        $("#nav").toggle();
+                    });
+                    $(window).resize(function () {
+                        if (window.innerWidth > 1200) {
+                            $("#nav").removeAttr("style");
+                        }
+                    }); //end resize
+
+                });//end function()
+            }(jQuery)); //end function($)
+
+            // Contact form
+
+        </script>
+
+        <!-- Custom CSS File -->
+        <link rel="stylesheet" href="css/custom.css" type="text/css" />
+
+        <!-- Imported Font Styling -->
+        <style> @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');</style>
+    </head>
+
+    <body>
+        <!-- Header Begins -->
+        <header class="header">
+            <a href="HomePage.html"><div class="logoContainer"></div></a>
+            <nav class="menuNav">
+                <ul id ="nav" class="nav-center">
+                    <li><a href="HomePage.html">What We Do</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                    <li style="border-bottom: 2px solid black"><a href="connect.html">Connect</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Header End -->
+
+        <!--Connect Tab-->
+        <div class ="banner">
+            <h1 class="container title-center">Contact Us</h1>
+            <hr>
+            <section class="section" id="connect">
+                <div class="sectionPage">
+                    <form action="mailto:bizdev@quickshipbrands.com?subject=Subject&body=Type+your+message+here" target="_blank" method="get" enctype="text/plain">
+                        <div id="info">
+                            <div class="input">
+                                <input type= "text" name="name" value="Your name" class="form-control formFont" id="name" required="required" />
+                            </div>
+                            <div class="input">
+                                <input type= "text" name="email" value="Your Email Address" class="form-control formFont" id="email" required="required"/>
+                            </div>
+                            <div class="input">
+                                <input type= "url" name="web" value="Company Website" class="form-control formFont" id="website" required="required"/>
+                            </div>
+                            <div class="input">
+                                <input type="text" name="subject" value="Subject" class="form-control form-inline formFont" required="required" />
+                            </div>
+                        </div>
+                        <div id="subjectInput">
+                            <input type= "text" name="body" value="Type your message here" class="form-control formFont" id="reason" required="required"/>
+                        </div>
+                        <div id="submitContainer">
+                            <input type="submit" id="submitButton" value="submit" />
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <br />
+            <br />
+        </div>
+
+        <!-- Footer Begins -->
+        <footer class="footer">
+            <div class="centered bottomNav font">
+                <span><a href="HomePage.html" style="text-decoration:none">What We Do</a></span> |
+                <span><a href="certifications.html" style="text-decoration:none">Certifications</a></span> |
+                <span><a href="tech.html" style="text-decoration:none">Tech</a></span> |
+                <span><a href="connect.html" style="text-decoration:none">Connect</a></span>
+            </div>
+            <br />
+            <div class="centered footerContainer">
+                <span class="contactIcons" id="facebook"><a href="https://www.facebook.com/QuickShipElectronics/" target="_blank"><img src="assets/svg/facebook.svg"/></a></span>
+                <span class="contactIcons" id="twitter"><a href="https://www.twitter.com/quickship" target="_blank"><img src="assets/svg/twitter.svg" /></a></span>
+                <span class="contactIcons" id="linkedin"><a href="https://www.linkedin.com/company/quick-ship-electronics" target="_blank"><img src="assets/svg/linkedin.svg" /></a></span>
+                <span class="contactIcons" id="youtube"><a href="https://www.youtube.com/user/QuickShipElectronics" target="_blank"><img src="assets/svg/youtube.svg" /></a></span>
+                <span class="contactIcons" id="ebay"><a href="http://stores.ebay.com/Quick-Ship-Electronics/" target="_blank"><img src="assets/svg/ebay.svg" /></a></span>
+            </div>
+            <br />
+            <div>
+                <p class="centered font">&copy 2017 Quick Ship Brands</p>
+            </div>
+        </footer>
+        <!-- Footer Ends -->
+
+      </body>
+  </html>
